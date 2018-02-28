@@ -1,0 +1,57 @@
+body {
+    font-family: 'Great Vibes', cursive;
+    background-color: #ffffff;
+}
+
+
+/*Login menu right button style*/
+.button .button-topics { 
+    /* FF3.6-15 */
+    background: linear-gradient(#ffffff 0%, #e5e5e5 100%); /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e5e5e5',GradientType=0 ); /* IE6-9 */
+    margin: 10px;
+    padding: 10px;
+}
+
+/*dropdown menu button style*/
+
+
+
+
+/* Topic field left menu style*/
+
+
+p {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
